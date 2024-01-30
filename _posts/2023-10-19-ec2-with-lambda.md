@@ -23,7 +23,6 @@ Navigate to the AWS Lambda console, and create a new function. Choose "Author fr
 Here's the Python code for your Lambda function. This function starts your EC2 instance and then executes a command to run a Python script located in a specific directory on your instance.
 
 ```
-python
 import boto3
 
 def lambda_handler(event, context):
